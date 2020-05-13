@@ -30,7 +30,7 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
-      $(".navbar-brand-img").prop("src","img/TooDecimal_Black.png");
+      $(".navbar-brand-img").attr("src","img/TooDecimal_Black.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
     }
