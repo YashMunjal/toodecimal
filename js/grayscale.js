@@ -33,6 +33,7 @@
       $(".navbar-brand-img").attr("src","img/TooDecimal_Black.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $(".navbar-brand-img").attr("src","img/TooDecimal_White.png");
     }
   };
   // Collapse now if page is not at top
